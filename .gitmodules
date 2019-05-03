@@ -1,0 +1,12 @@
+[submodule "meta-imx5"]
+	path = meta-imx5
+	url = https://github.com/embtom/meta-imx5.git
+	branch = master
+[submodule "meta-embtom"]
+	path = meta-embtom
+	url = https://github.com/embtom/meta-embtom.git
+	branch = master
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/git/poky
+	branch = thud-next
