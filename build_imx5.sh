@@ -30,10 +30,10 @@ bitbake imx53-embtom-image
 bitbake imx53-embtom-image -c populate_sdk
 
 mkdir -p ../../buildOut/deploy
-cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.tar.gz ../buildOut/deploy
-cp tmp/deploy/images/imx53/imx53-embtom-image-imx53-dbg.tar.gz ../buildOut/deploy
-cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.jffs2 ../buildOut/deploy
-cp tmp/deploy/images/imx53/uImage ../buildOut/deploy
-cp tmp/deploy/images/imx53/imx53-embtom.dtb  ../buildOut/deploy
-cp tmp/deploy/sdk/poky-glibc-x86_64-imx53-embtom-image-armv7a-neon-toolchain-2.6.2.sh ../buildOut/deploy
+cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.tar.gz ../../buildOut/deploy
+cp tmp/deploy/images/imx53/imx53-embtom-image-imx53-dbg.tar.gz ../../buildOut/deploy
+cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.jffs2 ../../buildOut/deploy
+cp tmp/deploy/images/imx53/uImage ../../buildOut/deploy
+cp tmp/deploy/images/imx53/imx53-embtom.dtb  ../../buildOut/deploy
+cp tmp/deploy/sdk/poky-glibc-x86_64-imx53-embtom-image-armv7a-neon-toolchain-2.6.1.sh ../../buildOut/deploy
 
