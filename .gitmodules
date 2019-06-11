@@ -10,3 +10,7 @@
 	path = poky
 	url = https://git.yoctoproject.org/git/poky
 	branch = thud-next
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
+	branch = thud

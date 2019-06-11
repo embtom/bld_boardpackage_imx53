@@ -22,6 +22,13 @@ else
   ln -s ../meta-embtom meta-embtom
 fi
 
+if simlink? "meta-qt5"; then
+  echo Link exits
+else
+  ln -s ../meta-qt5 meta-qt5
+fi
+
+
 source oe-init-build-env build-imx5
 cp ../../layerConf/bblayers.conf ./conf/
 cp ../../layerConf/local.conf ./conf/
