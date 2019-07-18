@@ -40,6 +40,7 @@ mkdir -p ../../buildOut/deploy
 cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.tar.gz ../../buildOut/deploy
 cp tmp/deploy/images/imx53/imx53-embtom-image-imx53-dbg.tar.gz ../../buildOut/deploy
 cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.jffs2 ../../buildOut/deploy
+cp tmp/deploy/images/imx53/imx53-embtom-image-imx53.itb ../../buildOut/deploy
 cp tmp/deploy/images/imx53/uImage ../../buildOut/deploy
 cp tmp/deploy/images/imx53/imx53-embtom.dtb  ../../buildOut/deploy
 cp tmp/deploy/sdk/*.sh ../../buildOut/deploy
